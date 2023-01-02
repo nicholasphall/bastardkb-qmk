@@ -4,10 +4,6 @@ enum charybdis_keymap_layers {
     LAYER_BASE = 0,
 };
 
-//#define NAV MO(LAYER_NAV)
-//#define SYM MO(LAYER_SYM)
-
-// clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAYER_BASE] = LAYOUT_split_3x5_2(
   // ╭──────────────────────────────────────────────╮ ╭─────────────────────────────────────────────╮
